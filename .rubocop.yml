@@ -1,3 +1,7 @@
 AllCops:
   SuggestExtensions: false
   NewCops: disable
+Metrics/BlockLength:
+  Enabled: true
+  Exclude:
+    - 'spec/**/*'
